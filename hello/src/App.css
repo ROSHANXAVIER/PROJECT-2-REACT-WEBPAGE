@@ -1,0 +1,24 @@
+.App {
+  text-align: center;
+}
+
+nav{
+   display: flex;
+   min-height: 10vh;
+   justify-content: center;
+   background: rgb(73,79,54);
+   color:white;
+}
+
+.Navlist{
+  list-style: none;
+  width:50%;
+  justify-content: space-around;
+  align-items: center;
+  color:white;
+}
+
+.Avatar{
+  align-items: left;
+  padding-right: 40px;
+}
