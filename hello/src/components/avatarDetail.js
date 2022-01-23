@@ -26,6 +26,7 @@ function AvatarDetail() {
   return(
       <div>
         <h1>{item.data.displayName}</h1>
+        <p className='positiondes'>{item.data.description}</p>
         <img src={item.data.fullPortrait} alt=""/>
       </div> 
   );

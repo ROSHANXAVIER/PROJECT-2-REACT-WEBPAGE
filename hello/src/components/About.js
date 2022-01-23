@@ -21,8 +21,8 @@ function About() {
   return(
       <div>
             {items.map(item =>(
-              <h1 key={item.uuid}>
-                <Link to={`/About/${item.uuid}`}>{item.displayName}</Link></h1>
+              <h1 className='namez' key={item.uuid}>
+                <Link className='namez' to={`/About/${item.uuid}`}>{item.displayName}</Link></h1>
             ))}      
       </div> 
   );

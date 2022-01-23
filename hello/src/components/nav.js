@@ -11,10 +11,29 @@ function Nav() {
     <nav>
         <ul className='Navlist'>
         <Link style={navStyle} to='/'>
-            <li>HOME</li>
+                      <div>
+                <div>
+                  <button class="btn">
+                    <span class="btn__inner">
+                      <span class="btn__slide"></span>
+                      <span class="btn__content">HOME</span>
+                    </span>
+                  </button>
+                </div>
+              </div>
           </Link>
           <Link className='Avatar' style={navStyle} to='/About'>
-            <li>AVATARS</li>
+          <div className='avatarz'>
+                <div>
+                  <button class="btn">
+                    <span class="btn__inner">
+                      <span class="btn__slide"></span>
+                      <span class="btn__content">AVATARS</span>
+                    </span>
+                  </button>
+                </div>
+              </div>
+            
           </Link>
         </ul>
     </nav> 

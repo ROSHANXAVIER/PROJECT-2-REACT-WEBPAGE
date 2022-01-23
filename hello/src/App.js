@@ -5,6 +5,18 @@ import About from './components/About';
 import AvatarDetail from './components/avatarDetail';
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom'
 function App() {
+  const html = document.querySelector('html');
+const logo = document.querySelector('.logo');
+const text = document.querySelector('h1');
+
+html.addEventListener('click', () => {
+  logo.style.webkitAnimation = 'none';
+  text.style.webkitAnimation = 'none';
+  setTimeout(function() {
+    logo.style.webkitAnimation = '';
+    text.style.webkitAnimation = '';
+  }, 10);
+});
   return (
     <Router>
       <div className='App'>
@@ -14,14 +26,18 @@ function App() {
           <Route path="/About" exact element={<About/>}/>
           <Route path="/About/:id" element={<AvatarDetail/>}/>
         </Routes>
-      </div>
+      </div> 
     </Router>
   );
 }
 
 const Home = () =>(
-  <div>
-    <h1>HOME PAGE</h1>
+  <div className='positionlogo'>
+    <div class="logo">
+  <div class="first"></div>
+  <div class="second"></div>
+</div>
+    <h1 className='valorant'>VALORANT +</h1>
   </div>
 
 );
