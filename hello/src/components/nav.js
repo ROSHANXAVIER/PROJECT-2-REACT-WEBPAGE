@@ -39,7 +39,7 @@ function Nav() {
           <Link className='Avatar' style={navStyle}   to='/Guns'>
 
 <div>
-      <div>
+      <div className='imageq'>
         <button className="btn">
           <span className="btn__inner">
             <span className="btn__slide"></span>

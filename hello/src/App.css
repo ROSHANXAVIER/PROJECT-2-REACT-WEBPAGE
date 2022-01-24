@@ -1,5 +1,13 @@
 .App {
   text-align: center;
+  padding-left: 900px;
+}
+
+.image{
+  float: left;
+  width: auto;
+  height: auto;
+  padding-right: auto;
 }
 
 nav{

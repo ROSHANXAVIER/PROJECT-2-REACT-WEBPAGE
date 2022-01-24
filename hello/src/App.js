@@ -25,13 +25,14 @@ html.addEventListener('click', () => {
       <div className='App'>
         <Nav/>
         <Routes>
-          <Route path="/" exact element={<Home/>}/>
+          <Route  path="/" exact element={<Home/>}/>
           <Route path="/About" exact element={<About/>}/>
           <Route path="/About/:id" element={<AvatarDetail/>}/>
           <Route path="/Guns" exact element={<Guns/>}/>
           <Route path="/Guns/:id" element={<Gunsdetail/>}/>
         </Routes>
-      </div> 
+      </div>
+      
     </Router>
   );
 }
