@@ -26,7 +26,7 @@ function Gunsdetail() {
   return(
       <div>
         <h1>{item.data.displayName}</h1>
-        <p className='positiondes'>{item.data.w}</p>
+        <p className='positiondesg'>{item.data.category}</p>
         <img src={item.data.displayIcon} alt=""/>
       </div> 
   );
