@@ -22,8 +22,9 @@ function Nav() {
                 </div>
               </div>
           </Link>
-          <Link className='Avatar' style={navStyle} to='/About'>
-          <div className='avatarz'>
+          <Link className='Avatar' style={navStyle}   to='/About'>
+
+          <div>
                 <div>
                   <button class="btn">
                     <span class="btn__inner">
@@ -36,7 +37,8 @@ function Nav() {
             
           </Link>
         </ul>
-    </nav> 
+        </nav> 
+
   );
 }
 

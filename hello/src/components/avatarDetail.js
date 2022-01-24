@@ -6,7 +6,7 @@ import {useParams} from 'react-router-dom';
 function AvatarDetail() {
   useEffect(()=>{
     fetchItem();
-  },[]);
+  });
 
   const{id}=useParams();
   console.log(id);

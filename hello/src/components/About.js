@@ -22,7 +22,8 @@ function About() {
       <div>
             {items.map(item =>(
               <h1 className='namez' key={item.uuid}>
-                <Link className='namez' to={`/About/${item.uuid}`}>{item.displayName}</Link></h1>
+                <Link className='namez' to={`/About/${item.uuid}`}><button type = "button" class = "btn btn-danger"><img src={item.displayIcon} alt=""/>{item.displayName}</button></Link>
+                </h1>
             ))}      
       </div> 
   );
