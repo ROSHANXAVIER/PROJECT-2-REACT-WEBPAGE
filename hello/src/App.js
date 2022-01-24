@@ -3,7 +3,10 @@ import './App.css';
 import Nav from './components/nav';
 import About from './components/About'; 
 import AvatarDetail from './components/avatarDetail';
-import { BrowserRouter as Router, Routes, Route } from 'react-router-dom'
+import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
+import Guns from './components/Guns';
+import Gunsdetail from './components/Gunsdetail';
+
 function App() {
   const html = document.querySelector('html');
 const logo = document.querySelector('.logo');
@@ -25,6 +28,8 @@ html.addEventListener('click', () => {
           <Route path="/" exact element={<Home/>}/>
           <Route path="/About" exact element={<About/>}/>
           <Route path="/About/:id" element={<AvatarDetail/>}/>
+          <Route path="/Guns" exact element={<Guns/>}/>
+          <Route path="/Guns/:id" element={<Gunsdetail/>}/>
         </Routes>
       </div> 
     </Router>

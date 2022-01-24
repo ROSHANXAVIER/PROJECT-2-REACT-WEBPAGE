@@ -13,10 +13,10 @@ function Nav() {
         <Link style={navStyle} to='/'>
                       <div>
                 <div>
-                  <button class="btn">
-                    <span class="btn__inner">
-                      <span class="btn__slide"></span>
-                      <span class="btn__content">HOME</span>
+                  <button className="btn">
+                    <span className="btn__inner">
+                      <span className="btn__slide"></span>
+                      <span className="btn__content">HOME</span>
                     </span>
                   </button>
                 </div>
@@ -26,16 +26,30 @@ function Nav() {
 
           <div>
                 <div>
-                  <button class="btn">
-                    <span class="btn__inner">
-                      <span class="btn__slide"></span>
-                      <span class="btn__content">AVATARS</span>
+                  <button className="btn">
+                    <span className="btn__inner">
+                      <span className="btn__slide"></span>
+                      <span className="btn__content">AVATARS</span>
                     </span>
                   </button>
                 </div>
               </div>
             
           </Link>
+          <Link className='Avatar' style={navStyle}   to='/Guns'>
+
+<div>
+      <div>
+        <button className="btn">
+          <span className="btn__inner">
+            <span className="btn__slide"></span>
+            <span className="btn__content">WEAPONS</span>
+          </span>
+        </button>
+      </div>
+    </div>
+  
+</Link>
         </ul>
         </nav> 
 
