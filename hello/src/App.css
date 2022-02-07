@@ -260,3 +260,58 @@ h1 {
   color: #ff4654;
   padding-left: 10px;
 }
+
+@media(max-width:768px){
+  .App{
+    min-width: auto;
+    justify-content: center;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+  }
+    .image{
+      float: left;
+      width: auto;
+      height: auto;
+      padding-right: auto;
+    }
+    
+    nav{
+       display: flex;
+       min-height: 10vh;
+       justify-content: center;
+       align-items: center;
+       color:white;
+    }
+    .namez{
+      color:white;
+      background-color: #ff4655;
+      font-size: 50px;
+    }
+    .positiondesg{
+      padding-right:0%;
+    }
+    .Navlist{
+      list-style: none;
+      width:auto;
+      color:white;
+    }
+    .positiondes{
+      align-self: initial;
+      padding-left: 100px;
+      border-left: 100px;
+    }
+    .Avatar{
+      align-items: left;
+      padding-right: 40px;
+    }
+    
+    .avatarz{
+      align-self: initial;
+    }
+    .hello{
+      padding-left: 100px;
+      min-width: 50%;
+    }  
+  
+}
