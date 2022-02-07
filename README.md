@@ -3,3 +3,5 @@ It is a webpage displaying details regarding the well known game VALORANT . The 
 
 YOU CAN VIEW THE WEBPAGE HERE , I HAVE HOSTED IT ON HEROKU ….IT MIGHT TAKE SOME TIME TO LOAD…: https://valorant-plus.herokuapp.com/
 
+![alt text](https://images.livemint.com/img/2020/06/03/1600x900/Valorant_1591218052835_1591218061187.jpg)
+
